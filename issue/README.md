@@ -2,14 +2,16 @@
 
 This is to demonstrate that python 3.9 and 3.11 have a debugging issue
 
-If you rug the
+If you run the
 
 Module: dagster
 parameter: dev
 
-Open the webbrowser, http://localhost:3000
+Open the web browser, http://localhost:3000
 got to assets, and the click on the anAsset, 
 then click materialize.
+
+break point in issue/assets.py:4
 
 
 
